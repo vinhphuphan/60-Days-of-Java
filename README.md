@@ -19,7 +19,8 @@ This repository is a structured collection of my notes, code snippets, and proje
 |-----|--------------|
 | 1   | Introduction to Java & Setup |
 | 2   | Variables & Data Types |
-| 3   | Operators & Expressions |
+| 3   | Handling User Input & Simple Calculation |
+| 4   | String Manipulation & Comparison |
 | ... | ... |
 | 60  | Final Project & Summary |
 

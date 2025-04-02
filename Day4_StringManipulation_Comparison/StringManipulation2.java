@@ -8,6 +8,11 @@ public class StringManipulation2 {
         System.out.println("Word 1 is : " + word1);
         System.out.println("Word 2 is : " + word2);
 
+        // replace() 
+        String phrase2 = "The quick brown fox";
+        String newPhrase2 = phrase2.replace('o','a');
+        System.out.println("Orginal Phrase : " + phrase2);
+        System.out.println("New Phrase : " + newPhrase2);
         
     }   
 

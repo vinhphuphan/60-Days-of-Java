@@ -53,8 +53,3 @@ Arrays.sort(arr);         // sắp xếp
 Arrays.toString(arr);     // in mảng dạng chuỗi
 Arrays.copyOf(arr, 3);    // sao chép mảng
 ```
-
----
-
-Muốn linh hoạt hơn? → dùng **ArrayList** thay vì Array cố định.  
-Cần giải thích thêm phần nào không bạn?

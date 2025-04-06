@@ -14,5 +14,7 @@ public class ArrayClass {
         // Remember to sort the array before doing binarySearch
         int index = Arrays.binarySearch(nums, 7);
         System.out.println("Index of 7 in nums array is : " + index);
+    
+    
     }
 }

@@ -27,7 +27,8 @@ list.set(0, "Python");      // cập nhật phần tử
 list.remove(0);             // xóa phần tử
 list.size();                // lấy độ dài
 list.contains("Java");      // kiểm tra tồn tại
-list.clear();               // xóa hết
+list.clear();               // xóa hế
+list.isEmpty();            // Kiem tra mang rong
 ```
 
 ---
@@ -57,3 +58,9 @@ for (String item : list) {
 ### ✅ 6. Ghi nhớ:
 - Chỉ dùng được với **kiểu đối tượng** → ví dụ: `Integer` thay vì `int`.
 - Có thể dùng với **Collections methods** như `Collections.sort(list)`.
+
+
+### 🧠 Lưu ý:
+- Cần import: `import java.util.ArrayList;`
+- Không thể dùng với kiểu nguyên thủy, dùng `Integer`, `Double`,...
+- **Tự động tăng kích thước** khi thêm phần tử mới.

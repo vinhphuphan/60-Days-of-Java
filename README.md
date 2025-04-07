@@ -21,6 +21,9 @@ This repository is a structured collection of my notes, code snippets, and proje
 | 2   | Variables & Data Types |
 | 3   | Handling User Input & Simple Calculation |
 | 4   | String Manipulation & Comparison |
+| 5   | Code With IDE |
+| 6   | Control Statement |
+| 7   | Array |
 | ... | ... |
 | 60  | Final Project & Summary |
 

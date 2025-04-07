@@ -17,10 +17,23 @@ public class ArrayExample {
         //     }
         // }
 
-        for ( int[] row : my2DArray) {
+        // for ( int[] row : my2DArray) {
+        //     for ( int element : row) {
+        //         System.out.println(element);
+        //     }
+        // }
+
+        int[][] new2DArray = {
+            {1,2,3},
+            {5,6,7},
+            {8,9,10}
+        };
+
+        for ( int[] row : new2DArray) {
             for ( int element : row) {
-                System.out.println(element);
+                System.out.printf("%d ", element);
             }
+            System.out.println();
         }
     }
 }

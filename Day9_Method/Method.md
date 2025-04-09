@@ -10,7 +10,7 @@ Dưới đây là những điều **ngắn gọn – súc tích – quan trọng
 
 ### ✅ 2. **Cấu trúc method**
 ```java
-returnType methodName(parameterList) {
+accessModifier returnType methodName(parameterList) {
     // method body
 }
 ```

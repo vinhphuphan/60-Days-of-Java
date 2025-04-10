@@ -24,6 +24,8 @@ This repository is a structured collection of my notes, code snippets, and proje
 | 5   | Code With IDE |
 | 6   | Control Statement |
 | 7   | Array |
+| 8   | 2D Array |
+| 9   | Method |
 | ... | ... |
 | 60  | Final Project & Summary |
 

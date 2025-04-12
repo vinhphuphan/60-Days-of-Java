@@ -1,4 +1,4 @@
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class RemoveDuplicates {
 
@@ -8,12 +8,14 @@ public class RemoveDuplicates {
 
         // removeDuplicate
         int[] newArr = removeDuplicate(orgArr);
+
+        // Print out
         System.out.print("The original array : ");
-        for (int element : newArr) {
+        for (int element : orgArr) {
             System.out.printf("%d ", element);
         }
 
-        System.out.println("\nThe array after removing duplicates : ");
+        System.out.print("\nThe array after removing duplicates : ");
         for (int element : newArr) {
             System.out.printf("%d ", element);
         }
@@ -22,11 +24,16 @@ public class RemoveDuplicates {
     }
 
     public static int[] removeDuplicate(int[] arr) {
-        HashSet<Integer> set = new HashSet<Integer>();
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
         for (int element : arr) {
             set.add(element);
         }
-
-        return set.toArray();
+        
+        int[] newArr = new int[set.size()];
+        int i=0;
+        for (int num: set) {
+            newArr[i++] = num;
+        }
+        return newArr;
     }
 }
